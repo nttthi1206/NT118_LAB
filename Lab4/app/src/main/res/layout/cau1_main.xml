@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textColor="#1976D2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Form nhập thông tin thêm nhanh -->
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Mã số SV" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Tên SV" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Số điện thoại"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Thêm Sinh Viên" />
+
+    <!-- Danh sách RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_students"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
