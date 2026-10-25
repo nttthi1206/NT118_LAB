@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- ========================= -->
+    <!-- PHẦN TRÊN: MÀU ĐEN -->
+    <!-- ========================= -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color0"
+        android:orientation="horizontal" />
+
+
+    <!-- ========================= -->
+    <!-- PHẦN DƯỚI: CHIA ĐỀU BÊN TRÁI VÀ BÊN PHẢI (50/50) -->
+    <!-- ========================= -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+
+        <!-- ========================= -->
+        <!-- KHU VỰC BÊN TRÁI (50%) -->
+        <!-- ========================= -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <!-- PHẦN TRÊN: CYAN + HỒNG -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+
+                <!-- CỘT CYAN + WHITE -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <!-- CYAN -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/color3" />
+
+                    <!-- WHITE -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/color4" />
+
+                </LinearLayout>
+
+
+                <!-- HỒNG -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color2" />
+
+            </LinearLayout>
+
+
+            <!-- BLUE: CHẠY NGANG TOÀN BỘ -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/color5" />
+
+        </LinearLayout>
+
+
+        <!-- ========================= -->
+        <!-- CỘT ĐỎ BÊN PHẢI (50%) -->
+        <!-- ========================= -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color1" />
+
+    </LinearLayout>
+
+</LinearLayout>
