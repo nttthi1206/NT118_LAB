@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="student_info">Nguyễn Thị Trang Thi - 24521654</string>
+    <string name="no_item_selected">Chưa chọn phần tử nào</string>
+    <string name="employee_management_title">Quản lý nhân viên</string>
+    <string name="employee_id_label">Mã NV:</string>
+    <string name="employee_id_hint">Nhập mã nhân viên</string>
+    <string name="employee_name_label">Tên NV:</string>
+    <string name="employee_name_hint">Nhập tên nhân viên</string>
+    <string name="employee_type_label">Loại NV:</string>
+    <string name="employee_type_official">Chính thức</string>
+    <string name="employee_type_casual">Thời vụ</string>
+    <string name="btn_add_employee">Nhập NV</string>
+    <string name="enter_name_hint">Nhập tên</string>
+    <string name="btn_submit">Nhập</string>
+    <string name="selection_info_default">Thông tin chọn sẽ hiện ở đây</string>
+    <string name="id">ID:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="is_manager">Is A Manager:</string>
+    <string name="staff">Staff</string>
+    <string name="add">Add</string>
+    <string name="app_title_dashboard">LAB 2 - Danh Sách Thực Hành</string>
+    <string name="title_th1">Bài TH1 - ListView Cơ bản</string>
+    <string name="title_th3">Bài TH3 - Thêm &amp; Xóa trong ListView</string>
+    <string name="title_th4">Bài TH4 - Quản lý NV (BaseAdapter)</string>
+    <string name="title_th5">Bài TH5 - Quản lý NV (Custom Adapter)</string>
+    <string name="title_th6">Bài TH6 - Quản lý NV (RecyclerView)</string>
+    <string name="title_qlma">Bài TH5 - Quản lý Món Ăn (QLMA)</string>
+</resources>
